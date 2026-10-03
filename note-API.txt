@@ -1,0 +1,130 @@
+API - Application programming interface
+---------------------------------------
+- it is used to communicate between different resources available in the internet
+- asynchronous function, api call will have a time delay
+
+Types of API
+-------------
+1) Public API - used publicaly without any credinals
+2) Private API - need credinals, only to a single user
+3) Partner API - data sharing between 2 or more users
+4) Composite API - interconnected network of different API's 
+
+HTTP - Hyper Text Transfer Protocol
+protocols - set of rules
+          - set of internet rules that need to be followed while transfering data between resources in the internet
+
+refer: HTTPS , FTP, SMTP, TCP, UDP etc
+
+
+HTTP request
+
+ 1) get - to retrieve data from other resources
+ 2) post - to add or send data 
+ 3) put - to update existing data 
+ 4) delete - to remove data
+
+request have two parts
+-----------------------
+ 1) request header - secret keys, content-types
+ 2) request body - data
+
+
+JSON formats
+-------------
+ - javasceipt object notation
+ - common formate to share data between the resources
+  formate
+  {
+    "key":value,
+  }
+
+response series
+---------------
+1xx (100 - 199) - informations
+2xx - success response
+3xx - redirection
+4xx - error - client error
+5xx - error - server side error
+
+
+url
+---
+- uniform resource locator
+
+
+RESTful API architecture
+-------------------------
+
+refer - SOAP, RPC
+
+TOOLS TO Test API
+------------------
+ 1) postman - real tool 
+ 2) thunder client - vs code extension
+
+
+Technique to create API in frontend
+------------------------------------
+ 1) AJAX
+ 2) FETCH
+ 3) ASYNC-AWAIT
+
+
+- AJAX - Asynchronous javascript XML
+----------------------------------
+ - works based on XMLHTTPRequest() class
+ - open() - connection between the resources
+ - send() - requst is send to the other resources
+ - readystate() - is a property inside a class
+ - onreadyStateChange - check the change in value of readyState
+ - status - property in the class which of the response status from the application with which we are communicating 
+ - responseText - holds the data from the application
+
+
+Fetch 
+------
+- no separate connection establishment in fetch
+- fetch('url') - by default get method, 2nd argument method is optional
+- if need other methods, need the 2nd argument as method with header and body.
+- Promise Class
+- Promise class have the ability to resolve asynchronous functions
+- Promise have 3 phases
+    1) resolve phase
+         - if the request is properly solved
+         - then() - the response can be acccesed using then() method
+    2) pending phase 
+         - if the request is neither resolved nor rejected
+         - no response
+    3) reject phase 
+         - if the request is not properly solved
+         - catch() - the response will be accessed using catch() method
+
+
+
+-> fakestoreAPI - this website provide dummy data
+-> JSONVue - extension is used to seen in json in the browser
+-> jsonplaceholder -- ??
+
+
+ASYNC-AWAIT
+-----------
+- it helps asynchronous function to behave like a synchronous function, this will reduce call back hell
+
+syntax difference
+     -----
+- in fetch we use 2 then() method, but here we can use single then() method
+- store the response to a variable
+- can use try-catch method for error handling
+
+
+-> rest countries website -> fullname option -> side 1st url -> copy and paste -> in that link {name} -> change to any country name(without cruly braces) ---> https://restcountries.com/v3.1/name/india?fullText=true
+
+
+
+project
+-------
+weatherapi -> current weather data -> api doc -> build-in api request by city name -> 1st url
+
+
+
