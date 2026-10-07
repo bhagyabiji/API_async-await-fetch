@@ -10,9 +10,10 @@ Technique to create API in frontend
  2. AJAX - Asynchronous javascript XML
     ----------------------------------
  - works based on XMLHTTPRequest() class
-   (check prgm )
+ [ check ajax.html , ajax.js ]
 
 
 3. FETCH 
    ------
 - no separate connection establishment in fetch
+[ check fetch.html , fetch.js ]
