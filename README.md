@@ -1,14 +1,18 @@
-ASYNC-AWAIT
------------
+Technique to create API in frontend
+------------------------------------
+
+1. ASYNC-AWAIT
+   -----------
 - it helps asynchronous function to behave like a synchronous function, this will reduce call back hell
 
 [ check asyncawait.html , asyncawait.js ]
 
- AJAX - Asynchronous javascript XML
-----------------------------------
+ 2. AJAX - Asynchronous javascript XML
+    ----------------------------------
  - works based on XMLHTTPRequest() class
+   (check prgm )
 
 
-Fetch 
-------
+3. FETCH 
+   ------
 - no separate connection establishment in fetch
