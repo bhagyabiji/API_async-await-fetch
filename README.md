@@ -1,3 +1,8 @@
+API - Application programming interface
+---------------------------------------
+- it is used to communicate between different resources available in the internet
+- asynchronous function, api call will have a time delay
+
 Technique to create API in frontend
 ------------------------------------
 
